@@ -28,8 +28,11 @@ h6 {
 }
 body { 
     font-family:Arial, Helvetica, sans-serif; 
-    background: none repeat scroll 0 0 #01193a;
+    background: none repeat scroll 0 0 #FFFFFF;
 }
+
+
+
 
 
 
@@ -39,6 +42,30 @@ body {
 .header-area a {
     color: #F0E9E1;
 }
+
+
+.header-area p {
+    color: #F0E9E1;
+}
+.user-menu p {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    display: block;
+    font-size: 15px;
+    margin-right: 5px;
+    padding: 10px;
+    margin-right: 5px;
+}
+
+
+
+
+
+
+
+
 .user-menu ul {
     list-style: outside none none;
     margin: 0;
@@ -56,6 +83,25 @@ body {
 .user-menu li a i.fa {
     margin-right: 5px;
 }
+
+.header-right{
+    margin: 0;
+    text-align: right;
+    display: block;
+    padding: 9px;
+    border: medium none;
+    border-radius: 0;
+    left: 50%;
+    margin-left: -50px;
+    min-width: 100px;
+    text-align: center;
+}
+
+.header-right label {
+    color: #F0E9E1;
+    
+}
+
 .header-right ul.list-inline {
     margin: 0;
     text-align: right;
@@ -91,10 +137,44 @@ z-index: 999;}
 .logo h1 a {
     color: #999;
 }
-.logo h1 a:hover {text-decoration: none;opacity: .85}
+.logo h1 a:hover {text-decoration: none;opacity: 1}
 .logo h1 a span {
     color: #F0E9E1;
 }
+
+
+
+
+
+
+
+
+
+.contact-header {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    float: right;
+    font-size: 18px;
+    margin-top: 80px;
+    padding: 10px;
+    position: relative;
+}
+.contact-header a{
+    color: #F0E9E1;
+}
+.contact-header:hover {
+    background: none repeat scroll 0 0 #F0E9E1;
+    border-color: #000B19;
+}
+.contact-header:hover a{
+    color: #000B19;text-decoration: none
+}
+
+
+
+
+
+
 .shopping-item {
     border: 1px solid #ddd;
     float: right;
@@ -159,8 +239,9 @@ z-index: 999;}
 [9. Block slider]
 ---------------------------*/
 .block-slider{
-	border:none;
-	width: 100%;
+	border: 1px solid #ddd;
+	width: 70%;
+    margin: 0 auto;
 }
 .block-slider ul li{
 	list-style: none;
@@ -375,9 +456,19 @@ z-index: 999;}
   font-family: "Raleway",sans-serif;
   font-size: 50px;
   font-weight: 100;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
   text-align: center;
 }
+
+
+
+.single-promo .laws {
+    font-size: 15px;
+}
+
+
+
+
 
 
 .product-f-image {
