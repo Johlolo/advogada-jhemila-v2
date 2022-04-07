@@ -82,7 +82,7 @@
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
                         <li><a href="/">Início</a></li>
-                        <li><a href="/products">Endereço</a></li>
+                        <li><a href="#address">Endereço</a></li>
                         <li><a href="/cart">Contato</a></li>
                     </ul>
                 </div>  

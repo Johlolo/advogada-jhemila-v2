@@ -37,7 +37,7 @@ body {
 
 
 .header-area {
-    background: none repeat scroll 0 0 #000B19;
+    background: none repeat scroll 0 0 #B17978;
 }
 .header-area a {
     color: #F0E9E1;
@@ -122,7 +122,7 @@ body {
     text-align: center;
 }
 
-.mainmenu-area {background: none repeat scroll 0 0 #000B19;
+.mainmenu-area {background: none repeat scroll 0 0 #B17978;
 font-family: "Roboto Condensed",sans-serif;
 text-transform: uppercase;
 width: 100%;
@@ -151,7 +151,7 @@ z-index: 999;}
 
 
 .contact-header {
-    border: 1px solid #ddd;
+    border: 1px solid #B17978;
     border-radius: 10px;
     float: right;
     font-size: 18px;
@@ -160,14 +160,14 @@ z-index: 999;}
     position: relative;
 }
 .contact-header a{
-    color: #F0E9E1;
+    color: #B17978;
 }
 .contact-header:hover {
     background: none repeat scroll 0 0 #F0E9E1;
-    border-color: #000B19;
+    border-color: #B17978;
 }
 .contact-header:hover a{
-    color: #000B19;text-decoration: none
+    color: #B17978;text-decoration: none
 }
 
 
@@ -231,16 +231,16 @@ z-index: 999;}
     padding: 20px;
 }
 
-.mainmenu-area ul.navbar-nav li:hover a, .mainmenu-area ul.navbar-nav li.active a {background: #F0E9E1; color:#000B19;}
+.mainmenu-area ul.navbar-nav li:hover a, .mainmenu-area ul.navbar-nav li.active a {background: #F0E9E1; color:#B17978;}
 .mainmenu-area .nav > li > a:focus {color: #F0E9E1;}
 
-.slider-area { width:80%; position:relative; margin:0 auto; padding:5px;}
+.slider-area { width:60%; position:relative; margin:0 auto; padding:5px;}
 /*-------------------------
 [9. Block slider]
 ---------------------------*/
 .block-slider{
-	border: 1px solid #ddd;
-	width: 70%;
+	border: 1px solid #FFFFFF;
+	width: 90%;
     margin: 0 auto;
 }
 .block-slider ul li{
@@ -253,7 +253,8 @@ z-index: 999;}
 .block-slider .bx-next{
 	width: 32px;
 	height: 32px;
-	border: 1px solid #000B19;
+    color: #B17978;
+	border: 1px solid #B17978;
 	text-align: center;
 	display: block;
 	border-radius: 50%;
@@ -290,7 +291,7 @@ z-index: 999;}
 }
 .block-slider .bx-prev:hover,
 .block-slider .bx-next:hover{
-	background: #000B19;
+	background: #B17978;
 	color: #F0E9E1;
 	border-color: #F0E9E1;
 }
@@ -306,7 +307,7 @@ z-index: 999;}
 .block-slider .bx-pager-item{
 	width: 15px;
 	height: 15px;
-	background: #000B19;
+	background: #FFFFFF;
 	font-size: 0;
 	display: inline-block;
 	border-radius: 50%;
@@ -320,7 +321,7 @@ z-index: 999;}
 	border-radius: 50%;
 }
 .block-slider .bx-pager-item a.active{
-	background: #3BB0FF;
+	background: #B17978;
 }
 .block-slider .caption-group{
 	position: absolute;
@@ -423,10 +424,11 @@ z-index: 999;}
 }
 
 .promo-area {
-  background:#000B19;
-  color: #000B19;
+  background:#B17978;
+  color: #B17978;
   padding: 40px 0 40px;
 }
+
 
 .brands-area {
   border-top:1px solid #F0E9E1;
@@ -436,7 +438,7 @@ z-index: 999;}
   background: #F0E9E1;
 }
 
-.promo-area .zigzag-bottom, .brands-area .zigzag-bottom{background: #F0E9E1}
+.promo-area .zigzag-bottom, .brands-area .zigzag-bottom{background: #B17978}
 .single-promo {
     font-size: 25px;
     font-weight: 200;
@@ -447,19 +449,30 @@ z-index: 999;}
   font-size: 50px;
 }
 
-.single-promo:hover {color: #fff;background: #01193a;}
-.promo1 { background:#3BB0FF;}
-.promo2 { background:#3BB0FF;}
-.promo3 { background:#3BB0FF;}
-.promo4 { background:#3BB0FF;}
+.single-promo:hover {color: #B17978;background: #FFFFFF;}
+.promo1 { background:#FFFFFF;}
+.promo2 { background:#FFFFFF;}
+.promo3 { background:#FFFFFF;}
+.promo4 { background:#FFFFFF;}
 .section-title {
   font-family: "Raleway",sans-serif;
   font-size: 50px;
   font-weight: 100;
   margin-bottom: 20px;
   text-align: center;
+  color: #B17978;
 }
 
+
+.section-acting {
+    color: #FFFFFF;
+    margin: auto;
+    font-family: "Raleway",sans-serif;
+    font-size: 50px;
+    font-weight: 300;
+    margin-bottom: 20px;
+    text-align: center;
+  }
 
 
 .single-promo .laws {
@@ -651,8 +664,8 @@ z-index: 999;}
 }
 .product-widget-area .zigzag-bottom{background: #F0E9E1;}
 .footer-top-area .zigzag-bottom{background: #F0E9E1}
-.footer-top-area {background: none repeat scroll 0 0 #000B19;
-color: #999;
+.footer-top-area {background: none repeat scroll 0 0 #B17978;
+color: #FFFFFF;
 padding: 35px 0 180px;}
 
 
@@ -663,7 +676,8 @@ padding: 35px 0 180px;}
 .footer-wid-title {
   font-family: raleway;
   font-size: 30px;
-  font-weight: 100;color: #F0E9E1
+  font-weight: 100;
+  color: #FFFFFF
 }
 
 .footer-about-us h2 {
@@ -675,18 +689,18 @@ padding: 35px 0 180px;}
     padding: 0;
 }
 .footer-menu ul li {
-    border-bottom: 1px dashed #F0E9E1;
+    border-bottom: 1px dashed #FFFFFF;
     padding: 5px 0;
 }
 .footer-menu a {
     display: block;
-    padding: 5px 0;color: #999
+    padding: 5px 0;color: #FFFFFF
 }
 
 
 .footer-social a {
-  background: none repeat scroll 0 0 #01193a;
-  color: #F0E9E1;
+  background: none repeat scroll 0 0 #B17978;
+  color: #FFFFFF;
   display: inline-block;
   font-size: 20px;
   height: 40px;
@@ -694,10 +708,10 @@ padding: 35px 0 180px;}
   margin-right: 10px;
   padding-top: 5px;
   text-align: center;
-  width: 40px;border: 1px solid #F0E9E1;
+  width: 40px;border: 1px solid #FFFFFF;
 }
 
-.footer-social a:hover {background-color: #F0E9E1;border-color: #01193a;color: #000B19}
+.footer-social a:hover {background-color: #FFFFFF;border-color: #B17978;color: #B17978}
 
 .footer-social {margin-top: 20px}
 
@@ -710,19 +724,19 @@ padding: 35px 0 180px;}
     width: 100%;
 }
 .newsletter-form input[type="submit"] {
-    background: none repeat scroll 0 0 #01193a;
+    background: none repeat scroll 0 0 #B17978;
     border: medium none;
-    color: #F0E9E1;
+    color: #FFFFFF;
     display: inline-block;
     font-size: 18px;
     padding: 7px 20px;
     text-transform: uppercase;border: 1px solid #F0E9E1;
 }
-.newsletter-form input[type="submit"]:hover {background: #F0E9E1;border-color: #F0E9E1;color: #000B19;}
+.newsletter-form input[type="submit"]:hover {background: #FFFFFF;border-color: #B17978;color: #B17978;}
 .newsletter-form {
     margin-top: 25px;
 }
-a {color: #666}
+a {color: #FFFFFF}
 a:hover, a:focus {color: #F0E9E1}
 .footer-bottom-area {
   background: none repeat scroll 0 0 #000;

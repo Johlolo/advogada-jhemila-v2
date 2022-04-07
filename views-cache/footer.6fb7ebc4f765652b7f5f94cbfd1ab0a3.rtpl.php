@@ -4,12 +4,13 @@
         <div class="row">
             <div class="col-md-3 col-sm-6">
                 <div class="footer-about-us">
-                    <h2>Yagami Store</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis sunt id doloribus vero quam laborum quas alias dolores blanditiis iusto consequatur, modi aliquid eveniet eligendi iure eaque ipsam iste, pariatur omnis sint! Suscipit, debitis, quisquam. Laborum commodi veritatis magni at?</p>
+                    <h3>Jhemila Rey Advocacia</h3>
+                    <p>A Dra. Jhemila Paula Rey graduou-se em Direito pela Universidade da Região de Joinville – Univille, tendo o TCC publicado pela Revista Eletrônica da OAB, Edição 6, Vol. 1 (2020) e é pós-graduanda em Direito Previdenciário e Direito de Família e Sucessões pela Faculdade Legale.</p>
+                    <p>Atua nas áreas de direito civil, família e sucessões, direito do consumidor e previdenciário. Atende seus clientes de forma humanizada, sendo menos desgastante para as partes.</p>
                     <div class="footer-social">
-                        <a href="https://www.facebook.com/hcodebr" target="_blank"><i class="fa fa-facebook"></i></a>
-                        <a href="https://twitter.com/hcodebr" target="_blank"><i class="fa fa-twitter"></i></a>
-                        <a href="https://www.youtube.com/channel/UCjWENuSH2gX55-y7QSZiWxA" target="_blank"><i class="fa fa-youtube"></i></a>
+                        <a href="" target="_blank"><i class="fa fa-facebook"></i></a>
+                        <a href="" target="_blank"><i class="fa fa-twitter"></i></a>
+                        <a href="" target="_blank"><i class="fa fa-youtube"></i></a>
                     </div>
                 </div>
             </div>
@@ -18,9 +19,9 @@
                 <div class="footer-menu">
                     <h2 class="footer-wid-title">Navegação </h2>
                     <ul>
-                        <li><a href="#">Minha Conta</a></li>
-                        <li><a href="#">Meus Pedidos</a></li>
-                        <li><a href="#">Lista de Desejos</a></li>
+                        <li><a href="/">Início</a></li>
+                        <li><a href="#address">Endereço</a></li>
+                        <li><a href="#">Contato</a></li>
                     </ul>                        
                 </div>
             </div>
@@ -29,7 +30,8 @@
                 <div class="footer-menu">
                     <h2 class="footer-wid-title">Categorias</h2>
                     <ul>
-                        <?php require $this->checkTemplate("categories-menu");?>                       
+                        <li>algo aqui</li>                      
+                        <li>algo mais aqui</li>
                     </ul>                        
                 </div>
             </div>

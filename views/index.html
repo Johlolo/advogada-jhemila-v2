@@ -15,10 +15,11 @@
 <div class="zigzag-bottom"></div>
 <div class="container">
     <div class="row">
+        <h2 class="section-acting">Atuação</h2>
         <div class="col-md-4 col-sm-6">
             <div class="single-promo promo1">
                 <i class="fa fa-group"></i>
-                <p>Família</p> <br>
+                <p>Família</p>
                 <div class="laws">
                     <label>- Divórcio judicial e extrajudicial;</label><br>
                     <label>- Reconhecimento e dissolução de união estável;</label><br>
@@ -59,36 +60,15 @@
     </div>
 </div>
 </div> <!-- End promo area -->
-
+<div id="address"><br><br></div>
 <div class="maincontent-area">
 <div class="zigzag-bottom"></div>
 <div class="container">
-    <div class="row">
-        <div class="col-md-12">
-            <div class="latest-product">
-                <h2 class="section-title">Produtos</h2>
-                <div class="product-carousel">
-                    {loop="$products"}
-                    <div class="single-product">
-                        <div class="product-f-image">
-                            <img src="{$value.desphoto}" alt="">
-                            <div class="product-hover">
-                                <a href="/cart/{$value.idproduct}/add" class="add-to-cart-link" style="float: left; margin-top: -20px;"><i class="fa fa-shopping-cart"></i> Comprar</a>
-                                <a href="/products/{$value.desurl}" class="view-details-link"><i class="fa fa-link"></i> Ver Detalhes</a>
-                            </div>
-                        </div>
-                        
-                        <h2><a href="/products/{$value.desurl}">{$value.desproduct}</a></h2>
-                        
-                        <div class="product-carousel-price">
-                            <ins>R${function="formatPrice($value.vlprice)"}</ins>
-                        </div> 
-                    </div>
-                    {/loop}
-                </div>
-            </div>
-        </div>
-    </div>
+    <h2 class="section-title">Endereço</h2>
+    <iframe id="map"
+				src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3576.673759435843!2d-48.846060250600864!3d-26.30467411121345!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1cfb2ac7661207ba!2sJhemila%20Rey%20Advocacia!5e0!3m2!1spt-BR!2sbr!4v1644927418447!5m2!1spt-BR!2sbr"
+				width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy">
+    </iframe>
 </div>
 </div> <!-- End main content area -->
 
@@ -97,18 +77,7 @@
 <div class="container">
     <div class="row">
         <div class="col-md-12">
-            <div class="brand-wrapper">
-                <div class="brand-list">
-                    <img src="/res/site/img/brand1.png" alt="">
-                    <img src="/res/site/img/brand2.png" alt="">
-                    <img src="/res/site/img/brand3.png" alt="">
-                    <img src="/res/site/img/brand4.png" alt="">
-                    <img src="/res/site/img/brand5.png" alt="">
-                    <img src="/res/site/img/brand6.png" alt="">
-                    <img src="/res/site/img/brand1.png" alt="">
-                    <img src="/res/site/img/brand2.png" alt="">                            
-                </div>
-            </div>
+            <p>alguma coisa aqui</p>
         </div>
     </div>
 </div>
