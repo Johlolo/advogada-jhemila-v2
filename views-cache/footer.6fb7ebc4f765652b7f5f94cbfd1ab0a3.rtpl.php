@@ -8,9 +8,9 @@
                     <p>A Dra. Jhemila Paula Rey graduou-se em Direito pela Universidade da Região de Joinville – Univille, tendo o TCC publicado pela Revista Eletrônica da OAB, Edição 6, Vol. 1 (2020) e é pós-graduanda em Direito Previdenciário e Direito de Família e Sucessões pela Faculdade Legale.</p>
                     <p>Atua nas áreas de direito civil, família e sucessões, direito do consumidor e previdenciário. Atende seus clientes de forma humanizada, sendo menos desgastante para as partes.</p>
                     <div class="footer-social">
-                        <a href="" target="_blank"><i class="fa fa-facebook"></i></a>
-                        <a href="" target="_blank"><i class="fa fa-twitter"></i></a>
-                        <a href="" target="_blank"><i class="fa fa-youtube"></i></a>
+                        <a href="https://www.instagram.com/jhemilapaularey/" target="_blank"><i class="fa fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/jhemila-paula-rey-7a9b211a5/" target="_blank"><i class="fa fa-linkedin"></i></a>
+                        <a href="https://www.facebook.com/jhemilapaularey" target="_blank"><i class="fa fa-facebook"></i></a>
                     </div>
                 </div>
             </div>
@@ -21,7 +21,7 @@
                     <ul>
                         <li><a href="/">Início</a></li>
                         <li><a href="#address">Endereço</a></li>
-                        <li><a href="#">Contato</a></li>
+                        <li><a href="#contact">Contato</a></li>
                     </ul>                        
                 </div>
             </div>
@@ -55,18 +55,18 @@
 <div class="footer-bottom-area">
     <div class="container">
         <div class="row">
-            <div class="col-md-8">
+            <div class="col-md-9">
                 <div class="copyright">
-                    <p>&copy; 2022 Yagami Store. <a href="http://www.yagamistore.com.br" target="_blank">yagamistore.com.br</a></p>
+                    <p>&copy; 2022 Jhemila Paula Rey - OAB/SC 58.898 | Todos os direitos reservados. Desenvolvido por Johannes Rey | <a href="http://www.yagamistore.com.br" target="_blank">johannesrey.com.br</a></p>
                 </div>
             </div>
             
-            <div class="col-md-4">
+            <div class="col-md-3">
                 <div class="footer-card-icon">
-                    <i class="fa fa-cc-discover"></i>
+                    <i class="fa fa-cc-visa"></i>
                     <i class="fa fa-cc-mastercard"></i>
                     <i class="fa fa-cc-paypal"></i>
-                    <i class="fa fa-cc-visa"></i>
+                    <i class="fa fa-credit-card"></i>
                 </div>
             </div>
         </div>

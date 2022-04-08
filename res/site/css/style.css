@@ -231,8 +231,9 @@ z-index: 999;}
     padding: 20px;
 }
 
-.mainmenu-area ul.navbar-nav li:hover a, .mainmenu-area ul.navbar-nav li.active a {background: #F0E9E1; color:#B17978;}
-.mainmenu-area .nav > li > a:focus {color: #F0E9E1;}
+.mainmenu-area ul.navbar-nav li:hover a {background: #F0E9E1; color:#B17978;}
+.mainmenu-area ul.navbar-nav li.active a {background: #B17978; color: #F0E9E1}
+.mainmenu-area .nav > li > a:focus {background: #B17978; color: #F0E9E1;}
 
 .slider-area { width:60%; position:relative; margin:0 auto; padding:5px;}
 /*-------------------------
@@ -433,9 +434,10 @@ z-index: 999;}
 .brands-area {
   border-top:1px solid #F0E9E1;
   border-bottom:1px solid #F0E9E1;
-  color: #F0E9E1;
-  padding: 20px 0 20px;
+  color: #B17978;
+  padding: 40px 0 60px;
   background: #F0E9E1;
+  font-size: 15px;
 }
 
 .promo-area .zigzag-bottom, .brands-area .zigzag-bottom{background: #B17978}
@@ -445,6 +447,13 @@ z-index: 999;}
     padding: 20px 10px;
     text-align: center;
 }
+
+.brands-area a {
+    color: #B17978;
+}
+.brands-area a:hover { color: #888}
+
+
 .single-promo i {
   font-size: 50px;
 }
@@ -479,7 +488,12 @@ z-index: 999;}
     font-size: 15px;
 }
 
-
+.container-address p {
+    color: #B17978;
+    font-size: 15px;
+}
+.address-1 {text-align: left;}
+.address-2 {text-align: right;}
 
 
 
@@ -507,7 +521,7 @@ z-index: 999;}
 .product-hover a {
     background: none repeat scroll 0 0 #000B19;
     border-radius: 5px;
-    color: #F0E9E1;
+    color: #000B19;
     display: block;
     font-size: 16px;
     left: 10%;
@@ -606,6 +620,23 @@ z-index: 999;}
   padding: 1px 10px;
 }
 
+hr {
+    border-color: #B17978;
+}
+
+.about-me-image {
+    border-radius: 50px;
+}
+
+.about-me-description {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.about-me-description p {
+    text-align: justify;
+}
+
 .maincontent-area {padding-bottom: 50px; padding-top:20px;color: #F0E9E1;}
 
 .product-wid-title {
@@ -614,7 +645,6 @@ z-index: 999;}
   font-weight: 100;
   margin-bottom: 40px;
 }
-
 
 .single-wid-product {
     margin-bottom: 31px;
@@ -666,7 +696,7 @@ z-index: 999;}
 .footer-top-area .zigzag-bottom{background: #F0E9E1}
 .footer-top-area {background: none repeat scroll 0 0 #B17978;
 color: #FFFFFF;
-padding: 35px 0 180px;}
+padding: 35px 0 100px;}
 
 
 .footer-bottom-area {background: #F0E9E1;color: #3BB0FF}
@@ -680,8 +710,11 @@ padding: 35px 0 180px;}
   color: #FFFFFF
 }
 
-.footer-about-us h2 {
+.footer-about-us h3 {
   font-weight: 200;
+}
+.footer-about-us p {
+    text-align: justify;
 }
 .footer-menu ul {
     list-style: outside none none;

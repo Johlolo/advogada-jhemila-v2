@@ -31,7 +31,7 @@
   </head>
   <body>
    
-    <div class="header-area">
+    <div class="header-area" id="header">
         <div class="container">
             <div class="row">
                 <div class="col-md-8">
@@ -43,7 +43,7 @@
                 <div class="col-md-4">
                     <div class="header-right">
                         <a id="email" href="mailto:jhemilarey@gmail.com">E-mail: jhemilarey@gmail.com</a>
-                        <label for="phone"> | Cel: (47) 99751-6606</label>
+                        <label for="phone"> | Phone: (47) 99751-6606</label>
                     </div>
                 </div>
             </div>
@@ -81,9 +81,10 @@
                 </div> 
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
-                        <li><a href="/">Início</a></li>
+                        <li><a href="#header">Início</a></li>
+                        <li><a href="#about-me">Sobre mim</a></li>
                         <li><a href="#address">Endereço</a></li>
-                        <li><a href="/cart">Contato</a></li>
+                        <li><a href="#contact">Contato</a></li>
                     </ul>
                 </div>  
             </div>
