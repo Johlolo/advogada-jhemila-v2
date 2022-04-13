@@ -13,7 +13,31 @@ input[type="submit"], button[type="submit"] {
 } 
 .col-1, .col-2 {
   width: 293px;
-}    
+}
+
+.contact-button {
+  margin: 0 auto;
+  position: absolute;
+  top: 65%;
+  right: 4%;
+}
+
+.contact-button-footer {
+  margin: 0 auto;
+  position: absolute;
+  top: 60%;
+  right: 20%;
+}
+
+.home-page-button {
+  padding: 5px 5px;
+  border-radius: 2px;
+  font-size: 18px;
+  margin-top: 55px;
+  width: 300px;
+  text-align: center;
+  background-color: #2BB741;
+}
     
     
 }
@@ -54,7 +78,35 @@ div.cart-collaterals ul.products li.product {
     
 .col-1, .col-2 {
   width: 345px;
-}    
+}   
+
+.contact-button {
+  margin: 0 auto;
+  position: absolute;
+  top: 60%;
+  right: 4%;
+}
+
+.contact-button-footer {
+  margin: 0 auto;
+  position: absolute;
+  top: -75%;
+  right: 15%;
+}
+
+.home-page-button {
+  padding: 5px 2px;
+  border-radius: 2px;
+  font-size: 16px;
+  margin-top: 55px;
+  width: 250px;
+  text-align: center;
+  background-color: #2BB741;
+}
+
+.about-me-description {
+  font-size: 120%;
+}
     
 }
 /* Mobile Layout: 320px. */
@@ -83,9 +135,9 @@ div.cart-collaterals ul.products li.product {
     float: none;
     margin: 10px auto;
 }
-.navbar-toggle .icon-bar { background: none repeat scroll 0 0 #333 }  
+.navbar-toggle .icon-bar { background: none repeat scroll 0 0 #fff }  
 .navbar-collapse.collapse.in {
-  background: none repeat scroll 0 0 #f4f4f4;
+  background: none repeat scroll 0 0 #b17978;
   position: relative;
   z-index: 99;
 } 
@@ -196,12 +248,190 @@ div.coupon input[type="text"] {
   margin-bottom: 40px;
   width: 100%;
 }  
+
+.contact-button {
+  margin: 0 auto;
+  position: absolute;
+  top: 78%;
+  right: 30%;
+}
+
+.contact-button-footer {
+  margin: 0 auto;
+  position: absolute;
+  top: -60%;
+  right: 30%;
+}
+
+.home-page-button {
+  padding: 5px 2px;
+  border-radius: 2px;
+  font-size: 20px;
+  margin-top: 55px;
+  width: 300px;
+  text-align: center;
+  background-color: #2BB741;
+}
+
+.about-me-image {
+  border-radius: 50px;
+  margin-left: 18%;
+}
+
+.user-menu{float: left;}
+
+.header-right{float: right;}
+
+.address-1 {text-align: center;}
+.address-2 {text-align: center;}
+
+.copyright{float:left; width: 75%;}
+
+#resp-title {
+  font-size: 80%;
+  margin-bottom: 8%
+}
     
+.about-me-description {
+  font-size: 120%;
+}
     
 }
-/* Wide Mobile Layout: 480px. */
-@media only screen and (min-width: 480px) and (max-width: 767px) { 
+
+
+/* Wide Mobile Layout: 630px. */
+@media only screen and (min-width: 581px) and (max-width: 630px) { 
     
+  .contact-button {
+    top: 71%;
+    right: 25%;
+  }
   
+  .contact-button-footer {
+    margin: 0 auto;
+    position: absolute;
+    top: -70%;
+    right: 26%;
+  }
+
+  .home-page-button {
+    font-size: 20px;
+    width: 300px;
+  }
+
+  .copyright{float:left; width: 70%;}
+
+  #resp-title {
+    font-size: 100%;
+    margin-bottom: 4%
+  }
+
+  #resp-title-2 {
+    font-size: 100%;
+  }
+
+  .about-me-image {
+    margin-left: 10%;
+  }
+
+  .section-acting {
+    margin-left: -35%;
+  }
+  
+  .action {
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  #hr-action {
+    display: none;
+  }
+
+  .p-action {
+    display: none;
+  }
+
+  .about-me-description {
+    font-size: 120%;
+  }
     
+}
+
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 350px) and (max-width: 580px) { 
+  
+.user-menu{float: none;}
+
+.header-right{float: none;}
+
+.contact-button {
+  top: 67%;
+  right: 23%;
+}
+
+.contact-button-footer {
+  margin: 0 auto;
+  position: absolute;
+  top: -75%;
+  right: 25%;
+}
+
+.action {
+  grid-template-columns: 400px;
+  justify-content: center;
+}
+
+.about-me-image {
+  margin-left: 8%;
+}
+
+.copyright{float:none; width: 100%; text-align: center;}
+
+.footer-card-icon {
+  text-align: center;
+}
+
+    
+}
+
+@media only screen and (min-width: 350px) and (max-width: 570px) { 
+
+  .about-me-image {
+    margin-left: 5%;
+  }
+
+}
+
+@media only screen and (min-width: 350px) and (max-width: 530px) { 
+
+  .about-me-image {
+    margin-left: 2%;
+  }
+
+  .contact-button-footer {
+    margin: 0 auto;
+    position: absolute;
+    top: -80%;
+    right: 23%;
+  }
+
+}
+
+@media only screen and (min-width: 350px) and (max-width: 480px) { 
+
+  .about-me-image {
+    margin-left: 0%;
+  }
+
+  .contact-button {
+    top: 62%;
+    right: 20%;
+  }
+
+  .contact-button-footer {
+    margin: 0 auto;
+    position: absolute;
+    top: -90%;
+    right: 20%;
+  }
+
 }

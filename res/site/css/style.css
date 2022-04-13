@@ -242,7 +242,14 @@ z-index: 999;}
     margin: 0 auto;
     position: absolute;
     top: 70%;
-    right: 15%;
+    right: 4%;
+}
+
+.contact-button-footer {
+    margin: 0 auto;
+    position: absolute;
+    top: 70%;
+    right: 20%;
 }
 
 .home-page-button {

@@ -1,10 +1,10 @@
 <?php if(!class_exists('Rain\Tpl')){exit;}?><div class="slider-area">
     <!-- Slider -->
     <div class="block-slider block-slider4">
-        <img src="/res/site/img/footer-image.png" alt="footer">
+        <img src="/res/site/img/footer-image.png" alt="footer" loading="lazy">
     </div>
     <!-- ./Slider -->
-    <div class="contact-button">
+    <div class="contact-button-footer">
         <div class="home-page-button">
             <div class="whatsapp-button">
                 <a href="https://api.whatsapp.com/send?phone=5547997516606&text=Ol%C3%A1!%20Gostaria%20de%20marcar%20um%20hor%C3%A1rio!" target="_blank">
@@ -20,7 +20,7 @@
         <div class="row">
             <div class="col-md-9">
                 <div class="copyright">
-                    <p>&copy; 2022 Jhemila Paula Rey - OAB/SC 58.898 | Todos os direitos reservados. Desenvolvido por Johannes Rey | <a href="http://www.yagamistore.com.br" target="_blank">johannesrey.com.br</a></p>
+                    <p>&copy; 2022 Jhemila Paula Rey - OAB/SC 58.898 | Todos os direitos reservados. Desenvolvido por Johannes Rey | <a href="https://www.linkedin.com/in/johannes-pablo-rey-b208a986/" target="_blank">Contato</a></p>
                 </div>
             </div>
             
