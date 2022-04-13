@@ -79,7 +79,7 @@
             <div class="row">
                 <div>
                     <div class="logo">
-                        <h1><img src="/res/site/img/logo1.png"></h1>
+                        <h1><img src="/res/site/img/logo1.png" alt="logo"></h1>
                     </div>
                 </div>
                 
