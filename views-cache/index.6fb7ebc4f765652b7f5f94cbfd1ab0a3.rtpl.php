@@ -154,6 +154,15 @@
 				src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3576.673759435843!2d-48.846060250600864!3d-26.30467411121345!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1cfb2ac7661207ba!2sJhemila%20Rey%20Advocacia!5e0!3m2!1spt-BR!2sbr!4v1644927418447!5m2!1spt-BR!2sbr"
 				width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy">
     </iframe>
+    <div class="contact-button-2">
+        <div class="map-button">
+            <div class="whatsapp-button">
+                <a href="https://www.google.com/maps/dir//Jhemila+Rey+Advocacia+Av.+Jucelino+Kubitscheck,+410,+sala+908,+9%C2%BA+andar,+bloco+B+Centro+Joinville+-+SC,+89201-906/@-26.3049518,-48.8468508,16z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94deb163ee4015fb:0x1cfb2ac7661207ba!2m2!1d-48.8468508!2d-26.3049518" target="_blank">
+                    Mostrar no Google Maps
+                </a>
+            </div>
+        </div>
+    </div>
     <hr>
     <div class="container-address">
         <div class="row">

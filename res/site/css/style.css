@@ -295,6 +295,26 @@ z-index: 999;}
 }
 
 
+.map-button {
+    padding: 8px 10px;
+    border-radius: 2px;
+    font-size: 20px;
+    margin-top: 10px;
+    width: 300px;
+    text-align: center;
+    background-color: #b17978;
+}
+.map-button a{
+    color: #FFFFFF;
+}
+.map-button:hover {
+    background: none repeat scroll 0 0 #FFFFFF;
+}
+.map-button:hover a{
+    color: #b17978;text-decoration: none
+}
+
+
 
 .slider-area { width:100%; position:relative; margin:0 auto; background-color: #B17978;}
 /*-------------------------
