@@ -49,21 +49,21 @@
             </div>
         </div>
     </div> <!-- End header area -->
-    
+
     <div class="site-branding-area">
         <div class="container">
             <div class="row">
-                <div class="col-sm-4">
+                <div>
                     <div class="logo">
                         <h1><img src="/res/site/img/logo1.png"></h1>
                     </div>
                 </div>
                 
-                <div class="col-sm-8">
+                <!-- <div class="col-sm-5">
                     <div class="contact-header">
                         <a href="https://api.whatsapp.com/send?phone=5547997516606&text=Ol%C3%A1!%20Gostaria%20de%20marcar%20um%20hor%C3%A1rio!" target="_blank">Entrar em contato</a>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
     </div> <!-- End site branding area -->

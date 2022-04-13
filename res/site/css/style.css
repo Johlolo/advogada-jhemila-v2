@@ -28,7 +28,7 @@ h6 {
 }
 body { 
     font-family:Arial, Helvetica, sans-serif; 
-    background: none repeat scroll 0 0 #FFFFFF;
+    background: none repeat scroll 0 0 #F0E9E1;
 }
 
 
@@ -53,9 +53,9 @@ body {
     padding: 0;
     display: inline-block;
     display: block;
+    padding-top: 3px;
     font-size: 15px;
     margin-right: 5px;
-    padding: 10px;
     margin-right: 5px;
 }
 
@@ -78,7 +78,7 @@ body {
     display: block;
     font-size: 13px;
     margin-right: 5px;
-    padding: 10px;
+    padding: 0px;
 }
 .user-menu li a i.fa {
     margin-right: 5px;
@@ -88,7 +88,7 @@ body {
     margin: 0;
     text-align: right;
     display: block;
-    padding: 9px;
+    padding-top: 3px;
     border: medium none;
     border-radius: 0;
     left: 50%;
@@ -128,7 +128,10 @@ text-transform: uppercase;
 width: 100%;
 z-index: 999;}
 
-
+.logo {
+    width: 60%;
+    margin-left: 20%;
+}
 
 .logo h1 {
     font-size: 40px;
@@ -155,7 +158,7 @@ z-index: 999;}
     border-radius: 10px;
     float: right;
     font-size: 18px;
-    margin-top: 80px;
+    margin-top: 90px;
     padding: 10px;
     position: relative;
 }
@@ -227,7 +230,7 @@ z-index: 999;}
 
 .mainmenu-area ul.navbar-nav li a {
     color: #F0E9E1;
-    font-size: 14px;
+    font-size: 16px;
     padding: 20px;
 }
 
@@ -235,13 +238,62 @@ z-index: 999;}
 .mainmenu-area ul.navbar-nav li.active a {background: #B17978; color: #F0E9E1}
 .mainmenu-area .nav > li > a:focus {background: #B17978; color: #F0E9E1;}
 
-.slider-area { width:60%; position:relative; margin:0 auto; padding:5px;}
+.contact-button {
+    margin: 0 auto;
+    position: absolute;
+    top: 70%;
+    right: 15%;
+}
+
+.home-page-button {
+    padding: 10px 20px;
+    border-radius: 2px;
+    font-size: 22px;
+    margin-top: 55px;
+    width: 350px;
+    text-align: center;
+    background-color: #2BB741;
+}
+.home-page-button a{
+    color: #FFFFFF;
+}
+.home-page-button:hover {
+    background: none repeat scroll 0 0 #0c5f18;
+    border-color: #FFFFFF;
+}
+.home-page-button:hover a{
+    color: #FFFFFF;text-decoration: none
+}
+
+.whatsapp-logo {
+    width: 12%; 
+    padding: 2px; 
+    margin: 0 5px 3px 0; 
+    color: #fff;
+}
+
+
+.action {
+    box-sizing: border-box;
+    min-height: 150px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.contact-button-2{
+    text-align: center;
+    display: grid;
+    justify-content: center;
+}
+
+
+
+.slider-area { width:100%; position:relative; margin:0 auto; background-color: #B17978;}
 /*-------------------------
 [9. Block slider]
 ---------------------------*/
 .block-slider{
-	border: 1px solid #FFFFFF;
-	width: 90%;
     margin: 0 auto;
 }
 .block-slider ul li{
@@ -458,7 +510,7 @@ z-index: 999;}
   font-size: 50px;
 }
 
-.single-promo:hover {color: #B17978;background: #FFFFFF;}
+.single-promo:hover {color: #B17978;background: #F0E9E1;}
 .promo1 { background:#FFFFFF;}
 .promo2 { background:#FFFFFF;}
 .promo3 { background:#FFFFFF;}
@@ -486,11 +538,12 @@ z-index: 999;}
 
 .single-promo .laws {
     font-size: 15px;
+    min-height: 120px;
 }
 
 .container-address p {
     color: #B17978;
-    font-size: 15px;
+    font-size: 18px;
 }
 .address-1 {text-align: left;}
 .address-2 {text-align: right;}
@@ -635,6 +688,15 @@ hr {
 
 .about-me-description p {
     text-align: justify;
+    font-size:
+}
+
+.about-me-description a {
+    color: #FFFFFF;
+}
+
+.about-me-description a:hover {
+    color: #FFFFFF;
 }
 
 .maincontent-area {padding-bottom: 50px; padding-top:20px;color: #F0E9E1;}
@@ -774,7 +836,6 @@ a:hover, a:focus {color: #F0E9E1}
 .footer-bottom-area {
   background: none repeat scroll 0 0 #000;
   color: #fff;
-  padding-bottom: 40px;
 }
 
 
