@@ -7,7 +7,7 @@
     <div class="contact-button-footer">
         <div class="home-page-button">
             <div class="whatsapp-button">
-                <a href="https://api.whatsapp.com/send?phone=5547997516606&text=Ol%C3%A1!%20Gostaria%20de%20marcar%20um%20hor%C3%A1rio!" target="_blank">
+                <a href="https://contate.me/jhemilarey.adv" target="_blank">
                     <img src="/res/site/img/whatsapp.png" class="whatsapp-logo" alt="Whatsapp">Chamar no WhatsApp
                 </a>
             </div>

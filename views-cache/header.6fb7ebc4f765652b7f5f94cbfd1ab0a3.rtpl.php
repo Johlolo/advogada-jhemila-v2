@@ -85,7 +85,7 @@
                 
                 <!-- <div class="col-sm-5">
                     <div class="contact-header">
-                        <a href="https://api.whatsapp.com/send?phone=5547997516606&text=Ol%C3%A1!%20Gostaria%20de%20marcar%20um%20hor%C3%A1rio!" target="_blank">Entrar em contato</a>
+                        <a href="https://contate.me/jhemilarey.adv" target="_blank">Entrar em contato</a>
                     </div>
                 </div> -->
             </div>

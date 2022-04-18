@@ -7,7 +7,7 @@
     <div class="contact-button">
         <div class="home-page-button">
             <div class="whatsapp-button">
-                <a href="https://api.whatsapp.com/send?phone=5547997516606&text=Ol%C3%A1!%20Gostaria%20de%20marcar%20um%20hor%C3%A1rio!" target="_blank">
+                <a href="https://contate.me/jhemilarey.adv" target="_blank">
                     <img src="/res/site/img/whatsapp.png" class="whatsapp-logo" alt="Whatsapp">Chamar no WhatsApp
                 </a>
             </div>
@@ -93,7 +93,7 @@
     <div class="contact-button-2">
         <div class="home-page-button">
             <div class="whatsapp-button">
-                <a href="https://api.whatsapp.com/send?phone=5547997516606&text=Ol%C3%A1!%20Gostaria%20de%20marcar%20um%20hor%C3%A1rio!" target="_blank">
+                <a href="https://contate.me/jhemilarey.adv" target="_blank">
                     <img src="/res/site/img/whatsapp.png" class="whatsapp-logo" alt="Whatsapp">Chamar no WhatsApp
                 </a>
             </div>
@@ -131,7 +131,7 @@
                         <div class="contact-button-2">
                             <div class="home-page-button">
                                 <div class="whatsapp-button">
-                                    <a href="https://api.whatsapp.com/send?phone=5547997516606&text=Ol%C3%A1!%20Gostaria%20de%20marcar%20um%20hor%C3%A1rio!" target="_blank">
+                                    <a href="https://contate.me/jhemilarey.adv" target="_blank">
                                         <img src="/res/site/img/whatsapp.png" class="whatsapp-logo" alt="Whatsapp">Chamar no WhatsApp
                                     </a>
                                 </div>
@@ -191,7 +191,7 @@
             <hr>
             <div class="col-sm-6"  style="font-size: 20px; margin-top: 5px;">
                 <i class="fa fa-envelope"> | Email: <a href="mailto:jhemilarey@gmail.com">jhemilarey@gmail.com</a></i><br>
-                <i class="fa fa-phone-square"> | Whatsapp: <a href="https://api.whatsapp.com/send?phone=5547997516606&text=Ol%C3%A1!%20Gostaria%20de%20marcar%20um%20hor%C3%A1rio!" target="_blank">(47) 99751-6606</a></i><br>
+                <i class="fa fa-phone-square"> | Whatsapp: <a href="https://contate.me/jhemilarey.adv" target="_blank">(47) 99751-6606</a></i><br>
                 <i class="fa fa-instagram"> | Instagram: <a href="https://www.instagram.com/jhemilapaularey/" target="_blank">@jhemilapaularey</a></i><hr>
                 <!-- <i>Atendimento online ou presencial mediante agendamento.</i> -->
             </div>
