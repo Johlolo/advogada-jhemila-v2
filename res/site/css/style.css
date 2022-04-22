@@ -713,9 +713,17 @@ hr {
     text-align: center;
 }
 
+.about-me-description h2 {
+    font-size: 35px;
+}
+
+.about-me-description h5 {
+    font-size: 20px;
+}
+
 .about-me-description p {
     text-align: justify;
-    font-size:
+    font-size: 16px;
 }
 
 .about-me-description a {
