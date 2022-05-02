@@ -1,7 +1,10 @@
 <?php if(!class_exists('Rain\Tpl')){exit;}?><div class="slider-area">
     <!-- Slider -->
-    <div class="block-slider block-slider4">
+    <div class="block-slider block-slider4 banner-site">
         <img src="/res/site/img/home-page.png" alt="Home" loading="lazy">
+    </div>
+    <div class="block-slider block-slider4 banner-mobile">
+        <img src="/res/site/img/banner-mobile.png" alt="Home" loading="lazy">
     </div>
     <!-- ./Slider -->
     <div class="contact-button">
