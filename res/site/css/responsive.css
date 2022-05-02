@@ -39,7 +39,32 @@ input[type="submit"], button[type="submit"] {
   background-color: #2BB741;
 }
     
-    
+}
+
+@media only screen and (max-width: 1200px) {
+
+  .footer-card-icon {
+    display: none;
+  }
+
+  .footer-bottom-area {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  .footer-bottom-area .container {
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+  }
+
+  .footer-bottom-area .container .copyright {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+  }
+
 }
 
 @media (min-width: 1200px) {
@@ -405,7 +430,7 @@ div.coupon input[type="text"] {
 }
 
 /* Wide Mobile Layout: 580px. */
-@media only screen and (min-width: 350px) and (max-width: 580px) { 
+@media only screen and (min-width: 571px) and (max-width: 580px) { 
   
 .user-menu{float: none;}
 
@@ -447,22 +472,39 @@ div.coupon input[type="text"] {
 
 .copyright{float:none; width: 100%; text-align: center;}
 
-.footer-card-icon {
-  text-align: center;
-}
-
     
 }
 
-@media only screen and (min-width: 350px) and (max-width: 570px) { 
+@media only screen and (min-width: 250px) and (max-width: 570px) {
+
+  .action {
+    grid-template-columns: 400px;
+    justify-content: center;
+  }
+
+}
+
+@media only screen and (min-width: 531px) and (max-width: 570px) { 
 
   .about-me-image {
     margin-left: 5%;
   }
 
+  .contact-button {
+    top: 84.5%;
+    right: 22%;
+  }
+
+  .contact-button-footer {
+    margin: 0 auto;
+    position: absolute;
+    top: -80%;
+    right: 23%;
+  }
+
 }
 
-@media only screen and (min-width: 350px) and (max-width: 530px) { 
+@media only screen and (min-width: 481px) and (max-width: 530px) { 
 
 .header-right{float: none; padding-left: 8%;}
 
@@ -485,7 +527,7 @@ div.coupon input[type="text"] {
 
 }
 
-@media only screen and (min-width: 350px) and (max-width: 480px) { 
+@media only screen and (min-width: 431px) and (max-width: 480px) { 
 
   .about-me-image {
     margin-left: 0%;
@@ -515,7 +557,7 @@ div.coupon input[type="text"] {
 
 }
 
-@media only screen and (min-width: 350px) and (max-width: 430px) { 
+@media only screen and (min-width: 415px) and (max-width: 430px) { 
 
   .header-right {
     width: 100%;
@@ -552,7 +594,7 @@ div.coupon input[type="text"] {
 
 }
 
-@media only screen and (min-width: 350px) and (max-width: 414px) { 
+@media only screen and (min-width: 391px) and (max-width: 414px) { 
 
   .header-right {
     width: 100%;
@@ -589,12 +631,10 @@ div.coupon input[type="text"] {
 }
 
 
-@media only screen and (min-width: 350px) and (max-width: 390px) { 
+@media only screen and (min-width: 376px) and (max-width: 390px) { 
 
-  .header-right {
-    width: 100%;
-    margin: 0 auto;
-    padding: 0;
+  .header-area {
+    display: none;
   }
 
   .about-me-image {
@@ -627,12 +667,14 @@ div.coupon input[type="text"] {
 }
 
 
-@media only screen and (min-width: 250px) and (max-width: 375px) { 
+@media only screen and (max-width: 375px) { 
 
-  .header-right {
-    width: 100%;
-    margin: 0 auto;
-    padding: 0;
+  .action {
+    grid-template-columns: 1fr;
+  }
+
+  .header-area {
+    display: none;
   }
 
   .about-me-image {
@@ -663,5 +705,26 @@ div.coupon input[type="text"] {
 
 .copyright{float:none; width: 100%; text-align: center; font-size: 90%;}
 
-
 }
+
+@media only screen and (max-width: 320px) {
+
+  .contact-button {
+    top: 74.5%;
+    right: 3%;
+  }
+
+  .contact-button-footer {
+    margin: 0 auto;
+    position: absolute;
+    top: -140%;
+    right: 3%;
+  }
+
+  .container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+} 
